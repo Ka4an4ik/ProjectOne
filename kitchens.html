@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Белань-Мебель</title>
+  </head>
+  <body>
+    <div class="wrapper wrapper-archive">
+      <div id="modal-archive" class="modal modal-archive">
+        <div class="modal__content">
+          <div class="modal__close">
+            <img src="./img/icons/close.svg" alt="">
+          </div>
+          <div class="modal__body modal-archive__body">
+            <div class="modal-archive__image zoom-effect" >
+              <img src="./img/projects/1.jpg" alt="" id="zoomable-image">
+            </div>
+          </div>
+          <p class="modal-archive__text">Чтобы приблизить/отдалить изображение, прокрутите колесико мыши</p>
+        </div>
+      </div>
+      <header class="header header__archive">
+        <div class="header__content container">
+          <a href="./index.html" class="header__logo">
+            <img src="./img/logo.svg" alt="" />
+          </a>
+          <nav class="header__menu">
+            <a href="https://ok.ru/belanmebel/photos" target='__blank' class="header__link">АРХИВ ПРОЕКТОВ</a>
+          </nav>
+          <div class="header__contacts">
+            <span>СВЯЖИТЕСЬ С НАМИ</span>
+            <a href="tel:+79272739255" class="header__phone">8 927 273 92 55</a>
+            <address class="header__address">
+              г. Ульяновск, ул. Московское шоссе, 68
+            </address>
+          </div>
+          <div class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <main class="page archive">
+        <div class="archive__content container">
+          <aside class="archive__sidebar archive-menu archive-sidebar">
+            <ul class="archive-sidebar__list">
+              <li><a href="./archive.html" class="archive-sidebar__link ">ЛУЧШЕЕ</a></li>
+              <li><a href="./kitchens.html" class="archive-sidebar__link active">КУХНИ</a></li>
+              <li><a href="./closets.html" class="archive-sidebar__link">ШКАФЫ-КУПЕ</a></li>
+              <li><a href="./bathrooms.html" class="archive-sidebar__link">САНУЗЕЛ</a></li>
+              <li><a href="./shelvings.html" class="archive-sidebar__link">СТЕЛЛАЖИ</a></li>
+              <li><a href="./hallways.html" class="archive-sidebar__link">ПРИХОЖИЕ</a></li>
+              <li><a href="./offurnitures.html" class="archive-sidebar__link">ОФИСНАЯ МЕБЕЛЬ</a></li>
+              <li><a href="./bedrooms.html" class="archive-sidebar__link">СПАЛЬНЫЙ ГАРНИТУР</a></li>
+              <li><a href="./retstores.html" class="archive-sidebar__link">ТОРГОВОЕ ОБОРУДОВАНИЕ</a></li>
+            </ul>
+          </aside>
+          <div class="archive__items">
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/6.png" alt="">
+              </a>
+            </div>
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/5.png" alt="">
+              </a>
+            </div>
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/1.png" alt="">
+              </a>
+            </div>
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/4.png" alt="">
+              </a>
+            </div>
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/2.png" alt="">
+              </a>
+            </div>
+            <div class="archive__item item-archive">
+              <a href="" data-modal="archive" class="item-archive__image modal-link-open">
+                <img src="./img/projects/kitchens/3.png" alt="">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/headerScroll.js"></script>
+    <script src="./js/zoomImage.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
